@@ -1,9 +1,8 @@
-import EmberRouter from '@ember/routing/router';
-
 import { addDocfyRoutes } from '@docfy/ember';
+import EmbroiderRouter from '@embroider/router';
 import config from 'ember-cheat-sheet/config/environment';
 
-export default class Router extends EmberRouter {
+export default class Router extends EmbroiderRouter {
   location = config.locationType;
   rootURL = config.rootURL;
 }

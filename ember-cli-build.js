@@ -20,7 +20,7 @@ module.exports = function (defaults) {
     staticAddonTestSupportTrees: true,
     staticHelpers: true,
     staticComponents: true,
-    // splitAtRoutes: ['docs', 'docs.templates'],
+    splitAtRoutes: [/docs/],
     packagerOptions: {
       webpackConfig: {
         module: {

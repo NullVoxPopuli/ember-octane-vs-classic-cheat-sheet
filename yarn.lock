@@ -1273,6 +1273,15 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
+"@embroider/router@^0.44.1":
+  version "0.44.1"
+  resolved "https://registry.npmjs.org/@embroider/router/-/router-0.44.1.tgz#58ff3413812812756f746e6b6e110a1f40040a62"
+  integrity sha512-4EKlg9FYL8KRJLhfnwr4aLL6vMhUJ1LviNE4QlKGU70LRahOhg9UMwqhA1PSCfoQ91LbmnTTnw4vIvasZWzRdA==
+  dependencies:
+    "@ember/test-waiters" "^3.0.0"
+    "@embroider/macros" "0.44.1"
+    ember-cli-babel "^7.23.0"
+
 "@embroider/shared-internals@0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-0.41.0.tgz#2553f026d4f48ea1fd11235501feb63bf49fa306"
