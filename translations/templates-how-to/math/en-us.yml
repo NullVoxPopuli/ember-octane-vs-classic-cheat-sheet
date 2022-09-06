@@ -1,3 +1,4 @@
 title: Math
 description: >
-  These helpers aren't yet in ember itself. In the meantime, you may install [ember-math-helpers](https://github.com/shipshapecode/ember-math-helpers) to get the helpers.
+  These helpers aren't yet in ember itself. In the meantime, you may install <a href="https://github.com/shipshapecode/ember-math-helpers">ember-math-helpers</a> to get the helpers.
+  
