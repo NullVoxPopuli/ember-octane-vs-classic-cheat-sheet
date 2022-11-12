@@ -29,6 +29,13 @@ html {
   height: 100%;
 }
 
+iframe {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  resize: vertical;
+}
+
 body {
   background-color: rgb(244, 246, 248);
   color: rgb(66, 71, 79);

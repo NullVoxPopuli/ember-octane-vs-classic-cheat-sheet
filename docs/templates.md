@@ -92,26 +92,9 @@ functionA(argA, argB, { argC: functionB(argD) });
 
 <GuideSection @id="templates-how-to" as |Section|>
   <Section @id="iterate">
-
-```hbs
-{{#each this.anIterable as |item|}}
-  {{log item}}
-{{/each}}
-```
-
-```hbs
-{{#each-in this.anObject as |key value|}}
-  {{log key value}}
-{{/each}}
-```
-
-```hbs
-{{#each this.anIterable key='uuid' as |item|}}
-  {{log item}}
-{{/each}}
-```
-
-
+    <Editable @path="templates-how-to/iterate/code/index.gjs" />
+    <Editable @path="templates-how-to/iterate/code/array.gjs" />
+    <Editable @path="templates-how-to/iterate/code/keyed.gjs" />
   </Section>
 
   <Section @id="invoke-function">
