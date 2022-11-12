@@ -2,6 +2,7 @@
   <iframe
     title={{this.title}}
     src="{{this.host}}?{{this.code.value}}"
+    style={{htmlSafe (concat "height: calc(1.5rem * " this.lines ");")}}
     ...attributes
   >
   </iframe>

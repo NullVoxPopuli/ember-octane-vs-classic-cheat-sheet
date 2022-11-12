@@ -92,7 +92,8 @@ functionA(argA, argB, { argC: functionB(argD) });
 
 <GuideSection @id="templates-how-to" as |Section|>
   <Section @id="iterate">
-    <Editable @path="templates-how-to/iterate/code/index.gjs" height="400px" />
+    <Editable @path="templates-how-to/iterate/code/index.gjs" />
+    <Editable @path="templates-how-to/iterate/code/array.gjs" />
     <Editable @path="templates-how-to/iterate/code/keyed.gjs" />
   </Section>
 
