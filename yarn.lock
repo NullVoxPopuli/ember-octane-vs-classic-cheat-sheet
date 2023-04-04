@@ -2852,35 +2852,28 @@
   resolved "https://registry.yarnpkg.com/@percy/dom/-/dom-1.0.0-beta.71.tgz#6f88dd51608f4ad5f4a516254e516fd17b23f23e"
   integrity sha512-ZIpQ5ExjGpliOny0w5vgEd1eG0noCtIP+nspjTPxJr3dmNGt/nR19RBE3pATc9RpLbtWOP6+Qyo8hFjZb+elrA==
 
-"@percy/ember@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@percy/ember/-/ember-3.0.0.tgz#4e89148e139d42b88e93526d47bf29d39a24094f"
-  integrity sha512-0QuQLtfeX7Xf2dOfrs6v5IEABSQuFimZDSgPMHaEGV9hOze+J7YKeWtpzBOCjcaaT36JRVdNwA+SdMX0gALP6A==
+"@percy/ember@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@percy/ember/-/ember-3.0.1.tgz#2f1f74993db8b327391ff657316d3083a8e27ecb"
+  integrity sha512-TOTwai5AsjtpAUWnCijKp8djfsWXfo4eUfF0Wc4QUjba+d3rk9FzvcppjJSmDPSJplyBlAyv1bxO1NMIfr80WQ==
   dependencies:
-    "@percy/sdk-utils" "^1.0.0-beta.46"
-    ember-cli-babel "^7.26.3"
+    "@percy/sdk-utils" "^1.6.4"
+    ember-cli-babel "^7.26.11"
 
 "@percy/env@1.0.0-beta.71":
   version "1.0.0-beta.71"
   resolved "https://registry.yarnpkg.com/@percy/env/-/env-1.0.0-beta.71.tgz#bbe89285817f9a578c3cdfc0d1ee74c5b3d768c7"
   integrity sha512-DPiCL2xuAdaTghziP2XtmaSMp1t3Mb0oo3yEg2HOpTjaPqu/tX9LjI+cJOs2jKf/jIwC3ris3agcafceXiGWZw==
 
-"@percy/logger@1.0.0-beta.68":
-  version "1.0.0-beta.68"
-  resolved "https://registry.yarnpkg.com/@percy/logger/-/logger-1.0.0-beta.68.tgz#6c42ba7d7b4350db99c3ba5fa622db7daf27e442"
-  integrity sha512-PmKMLOexQUlsPASy4vQEQRYa0KHec/6xWsAg/wnWhGgmnQA4l9EKcz7ZvjDWA6H+wrErLM+FdvMsd8POf417CQ==
-
 "@percy/logger@1.0.0-beta.71":
   version "1.0.0-beta.71"
   resolved "https://registry.yarnpkg.com/@percy/logger/-/logger-1.0.0-beta.71.tgz#03b458b1e43506c08c062f11b46aa2c9b1826fbf"
   integrity sha512-09MgfGbvSFgvmQ1g0AkPnRwfkJvXluj7TLVlcgBsKEdo0cKfmctvXUtRBgiueqJFSb7jF+JwzE5i17bHnLy0ng==
 
-"@percy/sdk-utils@^1.0.0-beta.46":
-  version "1.0.0-beta.68"
-  resolved "https://registry.yarnpkg.com/@percy/sdk-utils/-/sdk-utils-1.0.0-beta.68.tgz#fcf083a149d1c3f1d16d89aad8c41e90539faa35"
-  integrity sha512-0/AoSl1CBdeK221TskRZVyY3cQznuHE9sRDk5mD6xuqxk6zI+cRVpcmZTIhoEJEBpvzTLhZzvVU1qrFQ/+x9kA==
-  dependencies:
-    "@percy/logger" "1.0.0-beta.68"
+"@percy/sdk-utils@^1.6.4":
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/@percy/sdk-utils/-/sdk-utils-1.21.0.tgz#57b2ce73e7ea9a86e9f69d40e89f56f8dd294476"
+  integrity sha512-ZI6QbIhMZvE3P73ar7aeXcjSk8/czlS7h55QBynoJNorwimq5xed1CGPHu00uQsCO6dXeEKTfxQcqbCypRE6Hw==
 
 "@scalvert/ember-setup-middleware-reporter@^0.1.1":
   version "0.1.1"
