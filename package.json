@@ -127,7 +127,7 @@
   },
   "volta": {
     "node": "14.17.6",
-    "yarn": "1.22.17"
+    "yarn": "1.22.21"
   },
   "dependencies": {
     "ember-functions-as-helper-polyfill": "^1.0.10",
