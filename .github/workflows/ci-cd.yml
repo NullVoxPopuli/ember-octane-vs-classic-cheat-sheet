@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: volta-cli/action@v1
       - uses: actions/cache@v2
         with:
@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: volta-cli/action@v1
       - uses: actions/cache@v2
         with:
