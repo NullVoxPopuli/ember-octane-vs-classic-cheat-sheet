@@ -130,7 +130,7 @@
     "yarn": "1.22.21"
   },
   "dependencies": {
-    "ember-functions-as-helper-polyfill": "^1.0.10",
+    "ember-functions-as-helper-polyfill": "^2.0.0",
     "highlight.js": "^11.4.0",
     "highlightjs-glimmer": "^1.4.1",
     "remark-autolink-headings": "^6.1.0",
