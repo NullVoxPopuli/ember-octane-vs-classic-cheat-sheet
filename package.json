@@ -132,7 +132,7 @@
   "dependencies": {
     "ember-functions-as-helper-polyfill": "^2.0.0",
     "highlight.js": "^11.4.0",
-    "highlightjs-glimmer": "^1.4.1",
+    "highlightjs-glimmer": "^2.0.0",
     "remark-autolink-headings": "^6.1.0",
     "remark-highlight.js": "^6"
   }
