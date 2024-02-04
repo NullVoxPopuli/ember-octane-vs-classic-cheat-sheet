@@ -9560,10 +9560,10 @@ highlight.js@~10.7.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
 
-highlightjs-glimmer@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/highlightjs-glimmer/-/highlightjs-glimmer-1.4.1.tgz#e0100ada16c39c9b41c806599fbb9d113bc752c1"
-  integrity sha512-S2LpbYHcjvYMhf0TSFSKcFNbhDJwIVZBeTaFH1wCL9vL5XVX5fyrGG/IwCmIIvT0Vli9tUai8TTzmGJZrOSAtA==
+highlightjs-glimmer@^2.0.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/highlightjs-glimmer/-/highlightjs-glimmer-2.2.1.tgz#05182b3df25f94afe4547df30f1dd89a60ce9466"
+  integrity sha512-5vQiop/MgoLSqms7PAwCYAWRxDHnwD24nWFV03k8deH14XbsAb7C27O/UQCk8/ofPp18nBc1LR4yTNIg1cIgPQ==
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
