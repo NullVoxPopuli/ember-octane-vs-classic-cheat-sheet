@@ -9561,9 +9561,9 @@ highlight.js@~10.7.0:
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
 
 highlightjs-glimmer@^2.0.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/highlightjs-glimmer/-/highlightjs-glimmer-2.2.1.tgz#05182b3df25f94afe4547df30f1dd89a60ce9466"
-  integrity sha512-5vQiop/MgoLSqms7PAwCYAWRxDHnwD24nWFV03k8deH14XbsAb7C27O/UQCk8/ofPp18nBc1LR4yTNIg1cIgPQ==
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/highlightjs-glimmer/-/highlightjs-glimmer-2.2.2.tgz#b0219da39312e557c6e218d43434f7667f8b243c"
+  integrity sha512-4Mx/BSXeXidvurvGDxA80npLlDPuznbFMKeVzgVNFhmMOWCr7JUw55dMDGarb0OS4ma6dZL+TdpxqD2zhh5vZQ==
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
