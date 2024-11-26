@@ -7,6 +7,10 @@ const { LEGACY } = process.env;
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     // custom options here
+    fingerprint: {
+      generateAssetMap: true,
+      fingerprintAssetMap: true,
+    },
   });
 
   if (LEGACY) {

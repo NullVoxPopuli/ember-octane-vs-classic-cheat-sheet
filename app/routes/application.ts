@@ -6,11 +6,13 @@ import hljs from 'highlight.js';
 import { setup } from 'highlightjs-glimmer';
 
 import type RouterService from '@ember/routing/router-service';
+import type IntlService from 'ember-intl/services/intl';
 
 setup(hljs);
 
 export default class Application extends Route {
   @service declare router: RouterService;
+  @service declare intl: IntlService;
 
   constructor(...args: EmberConstructorArgs) {
     super(...args);
@@ -31,5 +33,12 @@ export default class Application extends Route {
     registerDestructor(this, () => {
       this.router.on('routeDidChange', highlight);
     });
+  }
+
+  async beforeModel() {
+    let translations = await fetch('/translations/en-us.json');
+    let translationsAsJson = await translations.json();
+
+    this.intl.addTranslations('en-US', translationsAsJson);
   }
 }
