@@ -3215,13 +3215,6 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/hast@^2.0.0":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@types/hast/-/hast-2.3.4.tgz#8aa5ef92c117d20d974a82bdfb6a648b08c0bafc"
-  integrity sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==
-  dependencies:
-    "@types/unist" "*"
-
 "@types/htmlbars-inline-precompile@*", "@types/htmlbars-inline-precompile@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/htmlbars-inline-precompile/-/htmlbars-inline-precompile-1.0.1.tgz#de564513fabb165746aecd76369c87bd85e5bbb4"
@@ -9555,11 +9548,6 @@ highlight.js@^11.4.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.11.1.tgz#fca06fa0e5aeecf6c4d437239135fabc15213585"
   integrity sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==
 
-highlight.js@~10.7.0:
-  version "10.7.3"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
-  integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
-
 highlightjs-glimmer@^2.0.0:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/highlightjs-glimmer/-/highlightjs-glimmer-2.2.2.tgz#b0219da39312e557c6e218d43434f7667f8b243c"
@@ -10859,14 +10847,6 @@ lower-case@^2.0.2:
   integrity sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==
   dependencies:
     tslib "^2.0.3"
-
-lowlight@^1.2.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-1.20.0.tgz#ddb197d33462ad0d93bf19d17b6c301aa3941888"
-  integrity sha512-8Ktj+prEb1RoCPkEOrPMYUN/nCggB7qAWe3a7OpMjWQkh3l2RD5wKRQ+o8Q8YuI9RG/xs95waaI/E6ym/7NsTw==
-  dependencies:
-    fault "^1.0.0"
-    highlight.js "~10.7.0"
 
 lru-cache@^5.1.1:
   version "5.1.1"
@@ -12793,15 +12773,10 @@ rehype-stringify@^8.0.0:
   dependencies:
     hast-util-to-html "^7.1.1"
 
-remark-autolink-headings@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-6.1.0.tgz#45fa1f8860e0fc6b78bcbc4b0f5d5dd696170e04"
-  integrity sha512-oeMSIfjaNboWPDVKahQAjF8iJ8hsz5aI8KFzAmmBdznir7zBvkgUjYE/BrpWvd02DCf/mSQ1IklznLkl3dVvZQ==
-  dependencies:
-    "@types/hast" "^2.0.0"
-    extend "^3.0.0"
-    unified "^9.0.0"
-    unist-util-visit "^2.0.0"
+remark-autolink-headings@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-8.0.0.tgz#0b13bd5fb40afb4b3ef8ac53c23db696978e356a"
+  integrity sha512-vzbpYmQsTLuwlmbnET5UK1sceR6qGRtb1vFBpc4uOZ+9j2vysSBryPDp6Lw2VfjFQTH73bHJJDTNB1LYOFrNpg==
 
 remark-extract-frontmatter@^3.1.0:
   version "3.2.0"
@@ -12832,13 +12807,10 @@ remark-hbs@^0.4.0:
     unist-builder "^2.0.3"
     unist-util-visit "^2.0.3"
 
-remark-highlight.js@^6:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/remark-highlight.js/-/remark-highlight.js-6.0.0.tgz#cb05387ddddeb078f0b61ce6299f6323f05098fc"
-  integrity sha512-eNHP/ezuDKoeh3KV+rWLeBVzU3SYVt0uu1tHdsCB6TUJYHwTNMJWZ5+nU+2fJHQXb+7PtpfGXVtFS9zk/W6qdw==
-  dependencies:
-    lowlight "^1.2.0"
-    unist-util-visit "^2.0.0"
+remark-highlight.js@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/remark-highlight.js/-/remark-highlight.js-8.0.0.tgz#3fe4f50e5065f5459206d50051814d22452bb39f"
+  integrity sha512-lwe1cZC0fca6junBnfLUGR2GcwkAOyaUvgaXxZK1/KjyoUNKsIF26It33hRBhZ7Vk2i/6E7rD4LmF835t6vdIQ==
 
 remark-normalize-headings@^2.0.0:
   version "2.0.0"

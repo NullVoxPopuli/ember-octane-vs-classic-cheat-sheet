@@ -133,7 +133,7 @@
     "ember-functions-as-helper-polyfill": "^2.0.0",
     "highlight.js": "^11.4.0",
     "highlightjs-glimmer": "^2.0.0",
-    "remark-autolink-headings": "^6.1.0",
-    "remark-highlight.js": "^6"
+    "remark-autolink-headings": "^8.0.0",
+    "remark-highlight.js": "^8.0.0"
   }
 }
